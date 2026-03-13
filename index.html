@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>烏龍派出所子網計算器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚓 烏龍派出所子網計算器 🚓</h1>
+        <div class="input-area">
+            <label>輸入 IP 位址：</label>
+            <input type="text" id="ip" placeholder="例如 192.168.1.10">
+            <label>輸入首碼或子網路遮罩：</label>
+            <input type="text" id="mask" placeholder="例如 24 或 255.255.255.0">
+            <button id="calculate">查查看！</button>
+        </div>
+        <div id="output" class="output-area"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
